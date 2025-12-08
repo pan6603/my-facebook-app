@@ -121,7 +121,6 @@ export const IdInput = styled.input`
     background-color: #FFFFFF;
 `
 
-
 export const PassWordInputDiv = styled.div`
     max-width: 546px;
     width: 100%;
