@@ -8,10 +8,6 @@ import {
     FormTitleText,
     InputGroupArea,
     LoginForm,
-    IdInputDiv,
-    IdInput,
-    PassWordInputDiv,
-    PassWordInput,
     LoginButtonDiv,
     LoginButton,
     LoginTextFlexBox,
@@ -24,12 +20,15 @@ import {
     CreateAccountButton,
     CreateAccountButtonLink,
     AccoutTextDiv,
-    AccoutText,
+    AccoutText
 } from "../../styles/login/layout/RightPanel.style"
-
-
+import FloatingInput from "../../commons/login/FloatingInput"
+import { useState } from "react";
 
 export default function RightPanel () {
+    const [email, setEmail] = useState("");
+    const [pw, setPw] = useState("");
+
     return (
         <>
             <RightPanelDiv>
@@ -42,12 +41,19 @@ export default function RightPanel () {
                                 </FormTitle>
                                 <InputGroupArea>
                                     <LoginForm>
-                                        <IdInputDiv>
-                                            <IdInput placeholder="이메일 또는 휴대번호"></IdInput>
-                                        </IdInputDiv>
-                                        <PassWordInputDiv>
-                                            <PassWordInput placeholder="비밀번호"></PassWordInput>
-                                        </PassWordInputDiv>
+                                        <FloatingInput 
+                                            label="아이디 또는 이메일"
+                                            value={email}
+                                            onChange={(e) => setEmail(e.target.value)}
+                                        />
+
+                                        <FloatingInput
+                                            type="password"
+                                            label="비밀번호"
+                                            value={pw}
+                                            onChange={(e) => setPw(e.target.value)}
+                                        />
+                                         
                                         <LoginButtonDiv>
                                             <LoginButton>
                                                 <LoginTextFlexBox>

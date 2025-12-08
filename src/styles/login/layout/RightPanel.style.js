@@ -70,58 +70,6 @@ export const LoginForm = styled.form`
 `
 
 
-export const IdInputDiv = styled.div`
-    max-width: 546px;
-    width: 100%;
-    height: 60px;
-    margin-top: 14px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    border: 1px solid #D8D3DA;
-    border-radius: 14px;
-
-    &:hover {
-        border: 1px solid #b1aab7;  
-    }
-`
-
-export const IdInput = styled.input`
-    max-width: 516px;
-    width: 100%;
-    height: 38px;
-    color: gray;
-    border: none;
-    outline: none; /* 입력 시 파란 테두리도 제거 */
-    background-color: #FFFFFF;
-`
-
-export const PassWordInputDiv = styled.div`
-    max-width: 546px;
-    width: 100%;
-    height: 60px;
-    margin-top: 14px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    border: 1px solid #D8D3DA;
-    border-radius: 14px;
-
-    &:hover {
-        border: 1px solid #b1aab7;  
-    }
-`
-
-export const PassWordInput = styled.input`
-    max-width: 516px;
-    width: 100%;
-    height: 38px;
-    color: gray;
-    border: none;
-    outline: none; /* 입력 시 파란 테두리도 제거 */
-    background-color: #FFFFFF;
-`
-
 export const LoginButtonDiv = styled.div`
     max-width: 546px;
     width: 100%;
