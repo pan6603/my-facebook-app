@@ -171,7 +171,6 @@ export const LoginButton = styled.div`
     }
 `
 
-
 export const LoginTextFlexBox = styled.div`
     max-width: 512px;
     width: 100%;
