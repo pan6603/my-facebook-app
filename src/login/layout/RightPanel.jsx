@@ -61,6 +61,7 @@ export default function RightPanel () {
                                                 </LoginTextFlexBox>
                                             </LoginButton>
                                         </LoginButtonDiv>
+
                                         <ForgotPasswordButton>
                                             <ForgotPasswordLink>
                                                 <ForgotPwTextDiv>
@@ -68,6 +69,7 @@ export default function RightPanel () {
                                                 </ForgotPwTextDiv>
                                             </ForgotPasswordLink>
                                         </ForgotPasswordButton>
+
                                         <CreateNewAccountButton>
                                             <CreateAccountButton>
                                                 <CreateAccountButtonLink>
@@ -77,6 +79,7 @@ export default function RightPanel () {
                                                 </CreateAccountButtonLink>
                                             </CreateAccountButton>
                                         </CreateNewAccountButton>
+                                        
                                     </LoginForm>
                                 </InputGroupArea>
                             </FormWrapper>
