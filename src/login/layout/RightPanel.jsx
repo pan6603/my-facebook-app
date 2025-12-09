@@ -72,7 +72,7 @@ export default function RightPanel () {
 
                                         <CreateNewAccountButton>
                                             <CreateAccountButton>
-                                                <CreateAccountButtonLink>
+                                                <CreateAccountButtonLink to="/create_accout">
                                                     <AccoutTextDiv>
                                                         <AccoutText>새 계정 만들기</AccoutText>
                                                     </AccoutTextDiv>

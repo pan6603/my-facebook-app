@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 export const RightPanelDiv = styled.div`
@@ -33,7 +34,7 @@ export const FaceBookLoginFlexbox = styled.div`
 
 export const FormWrapper = styled.div`
     max-width: 546px;
-    width: 100%;
+    width: 546px;
     height: 448px;
     display: flex;
     flex-direction: column;
@@ -41,8 +42,7 @@ export const FormWrapper = styled.div`
 `
 
 export const FormTitle = styled.div`
-    max-width: 546px;
-    width: 100%;
+    width: max-content;
     height: 28px;
 `
 
@@ -172,7 +172,7 @@ export const CreateAccountButton = styled.div`
     }  
 `
 
-export const CreateAccountButtonLink = styled.a`
+export const CreateAccountButtonLink = styled(Link)`
     max-width: 546px;
     width: 100%;
     height: 44px;

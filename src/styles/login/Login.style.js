@@ -16,8 +16,9 @@ export const SplitLayout = styled.div`
 
 export const Divider = styled.div`
     width: 2px;
-    background-color: #FFFFFF;
-`
+    height: 100%;
+    background-color: #ffffff;
+`;
 
 
 
